@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ForGame</string>
+    <string name="user">这是游戏人物</string>
+    <string name="attacker">这是敌机</string>
 </resources>

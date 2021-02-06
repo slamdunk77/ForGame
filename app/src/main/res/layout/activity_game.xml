@@ -4,12 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameActivity">
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_game_back">
+    tools:context=".GameActivity"
+    android:background="@drawable/ic_game_back"
+    android:padding="10dp"
+    android:id="@+id/game_main">
 
-    </View>
+
+    <ImageView
+        android:id="@+id/user_photo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="272dp"
+        android:contentDescription="@string/user"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"></ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
